@@ -11,5 +11,6 @@
 }
 button {
   background-color: goldenrod;
+  cursor: pointer;
   padding: 5px 12px;
 }

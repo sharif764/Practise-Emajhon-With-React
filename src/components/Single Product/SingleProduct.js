@@ -2,11 +2,10 @@ import React from 'react';
 import Features from '../Features/Features';
 import './SingleProduct.css';
 const SingleProduct = (props) => {
-    console.log(props)
-    const { img, name, price, seller, shipping, star, stock, features } = props.product;
-    const allfeatures = [...features];
-    console.log(allfeatures);
-    console.log(img)
+
+    const { img, name, price, seller, features } = props.product;
+    // const allfeatures = [...features];
+
     return (
         <div className="single-cart">
             <div>
@@ -21,7 +20,9 @@ const SingleProduct = (props) => {
 
                         <p>by : {seller}</p>
                         <p>Price : {price}</p>
-                        <button>add to cart</button>
+                        <button className="button" onClick={() => {
+                            props.handleAddtoCart(props.product)
+                        }}>add to cart</button>
                     </div>
                     <div>
                         <h5>Features</h5>
