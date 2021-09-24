@@ -3,11 +3,12 @@
 }
 .product-details {
   display: flex;
+
   color: darkblue;
-  align-items: center;
 }
-.product-details h1 {
+.product-details h3 {
   font-weight: 600;
+  margin-bottom: 15px;
 }
 button {
   background-color: goldenrod;

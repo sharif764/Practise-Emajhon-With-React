@@ -1,4 +1,5 @@
 import React from 'react';
+import Features from '../Features/Features';
 import './SingleProduct.css';
 const SingleProduct = (props) => {
     console.log(props)
@@ -11,7 +12,9 @@ const SingleProduct = (props) => {
             <div>
                 <img src={img} alt="product-img" />
             </div>
+
             <div className="product-details">
+
                 <div>
                     <h3>{name}</h3>
                     <p>by : {seller}</p>
@@ -20,6 +23,7 @@ const SingleProduct = (props) => {
                 </div>
                 <div>
                     <h5>Features</h5>
+                    {features.map(singleFeature => <Features features={singleFeature}></Features>)}
                 </div>
             </div>
         </div>
