@@ -3,8 +3,7 @@
 }
 .product-details {
   display: flex;
-
-  color: darkblue;
+  justify-content: space-between;
 }
 .product-details h3 {
   font-weight: 600;

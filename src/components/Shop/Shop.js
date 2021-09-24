@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
+import Calculation from '../Product-Calculation/Calculation';
 import './Shop.css';
 const Shop = (props) => {
+    const enentHandler = () => {
+
+    }
     const [products, setProducts] = useState([]);
     useEffect(() => {
         fetch('/products.JSON')
@@ -14,7 +18,7 @@ const Shop = (props) => {
                 <Cart products={products}></Cart>
             </div>
             <div className="product-calculation">
-
+                <Calculation products={products}></Calculation>
             </div>
         </section>
     );

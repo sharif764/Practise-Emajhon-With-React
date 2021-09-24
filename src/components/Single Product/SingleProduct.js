@@ -13,17 +13,20 @@ const SingleProduct = (props) => {
                 <img src={img} alt="product-img" />
             </div>
 
-            <div className="product-details">
+            <div>
+                <h1>{name}</h1>
+                <div className="product-details">
 
-                <div>
-                    <h3>{name}</h3>
-                    <p>by : {seller}</p>
-                    <p>Price : {price}</p>
-                    <button>add to cart</button>
-                </div>
-                <div>
-                    <h5>Features</h5>
-                    {features.map(singleFeature => <Features features={singleFeature}></Features>)}
+                    <div>
+
+                        <p>by : {seller}</p>
+                        <p>Price : {price}</p>
+                        <button>add to cart</button>
+                    </div>
+                    <div>
+                        <h5>Features</h5>
+                        {features.map(singleFeature => <Features features={singleFeature}></Features>)}
+                    </div>
                 </div>
             </div>
         </div>
