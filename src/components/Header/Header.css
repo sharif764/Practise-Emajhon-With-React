@@ -21,3 +21,11 @@ nav a:hover {
   color: black;
   border-radius: 15px;
 }
+.searchBar {
+  width: 70%;
+  padding: 7px;
+  margin: 15px;
+}
+.input-div {
+  background-color: rgba(0, 0, 0, 0.794);
+}
