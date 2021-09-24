@@ -1,0 +1,23 @@
+.icon-img {
+  width: 120px;
+}
+.headein {
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  padding: 8px;
+}
+nav {
+  background-color: black;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+}
