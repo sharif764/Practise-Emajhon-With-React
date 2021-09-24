@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
 import logo from '../../logo.ico';
-
 const Header = () => {
     return (
         <section>

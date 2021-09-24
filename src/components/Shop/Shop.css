@@ -1,0 +1,10 @@
+.product-calucation-all {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.all-product {
+  border-right: 1px solid gray;
+}
+.all-product {
+  margin-left: 15%;
+}

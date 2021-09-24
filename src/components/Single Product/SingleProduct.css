@@ -1,0 +1,15 @@
+.single-cart {
+  display: flex;
+}
+.product-details {
+  display: flex;
+  color: darkblue;
+  align-items: center;
+}
+.product-details h1 {
+  font-weight: 600;
+}
+button {
+  background-color: goldenrod;
+  padding: 5px 12px;
+}
